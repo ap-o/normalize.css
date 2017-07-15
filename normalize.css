@@ -3,6 +3,21 @@
 /* Document
    ========================================================================== */
 
+
+/**
+ * Border Box Everything 
+ * padding + border + width = actual rendered width
+ * padding + border + height = actual rendered height
+ */
+
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
